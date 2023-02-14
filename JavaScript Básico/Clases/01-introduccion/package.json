@@ -1,0 +1,15 @@
+{
+  "name": "01-introduccion",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto con JavaScript de open Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "holamundo",
+    "prueba"
+  ],
+  "author": "Luis Fernando Polo",
+  "license": "ISC"
+}

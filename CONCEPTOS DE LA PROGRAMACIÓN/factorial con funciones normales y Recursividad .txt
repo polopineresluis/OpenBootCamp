@@ -1,0 +1,24 @@
+
+function pruebaFactorial(num){
+  if(num === 1 ){
+    return 1
+  }
+  return num * pruebaFactorial(num-1)
+}
+
+console.log(pruebaFactorial(5))
+
+function pruebaLuis(num){
+  let total = num
+
+  for(let i = num -1; i > 0; i = i -1){
+    total *= i;
+  }
+
+  return total;
+}
+
+console.log("Segunda prueba funciones normales " + pruebaLuis(5))
+
+
+funciones puras
